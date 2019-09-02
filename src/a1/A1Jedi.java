@@ -47,7 +47,13 @@ public class A1Jedi {
 				for (int k=0; k < (countitems); k++) {
 					if (itembought[j].equals(itemnames[k])) {
 						costofitembought[j] = prices[k];
+						
+						if (numitembought[k] > i) {
+							
+						}
+						else {
 						numitembought[k] = numitembought[k] + 1;
+						}
 						numamtitembought[k] = numitemsbought[j] + numamtitembought[k];
 					}
 				}
