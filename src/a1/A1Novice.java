@@ -19,6 +19,7 @@ public class A1Novice {
 		String[] lastname = new String[count];
 		int[] amtbought = new int[count];
 		double[] totalcost = new double[count];
+		String[] truetotalcost = new String[count];
 		
 		// Put first names in array
 		for (int i=0; i < (firstname.length); i++) {
@@ -32,6 +33,7 @@ public class A1Novice {
 				itembought[j] = scan.next();
 				totalcost[i] = totalcost[i] + ( itemsbought[j] * scan.nextDouble() );
 			}
+			truetotalcost[i] = String.format("%.2f", totalcost[i]);
 		}
 				
 		// Put first initials in array
@@ -40,7 +42,7 @@ public class A1Novice {
 		}
 		
 		for (int i=0; i<firstname.length; i++) {
-		System.out.println(firstinitials[i] + ". " + lastname[i] + ": " + totalcost[i]);
+		System.out.println(firstinitials[i] + ". " + lastname[i] + ": " + truetotalcost[i]);
 		}
 	}
 }
