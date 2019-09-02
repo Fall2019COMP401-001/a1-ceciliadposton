@@ -30,7 +30,7 @@ public class A1Novice {
 				String[] itembought = new String[amtbought[i]];
 				itemsbought[j] = scan.nextInt();
 				itembought[j] = scan.next();
-				totalcost[i] = totalcost[i] + scan.nextDouble();
+				totalcost[i] = totalcost[i] + ( itemsbought[j] * scan.nextDouble() );
 			}
 		}
 				
