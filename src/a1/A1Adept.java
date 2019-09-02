@@ -108,7 +108,7 @@ public class A1Adept {
 		
 		System.out.println( "Biggest:" + " " + bigfirstname + " " + biglastname + " " + "(" + truemax + ")" );
 		System.out.println( "Smallest:" + " " + smallfirstname + " " + smalllastname + " " +  "(" + truemin + ")" );
-		System.out.println( "Average:" + trueavg );
+		System.out.println( "Average:" + " " + trueavg );
 		
 
 		
